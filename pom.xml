@@ -26,7 +26,7 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub Techtony96 Apache Maven Packages</name>
+            <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/Techtony96/Discord-Parent</url>
         </repository>
     </distributionManagement>
