@@ -120,7 +120,7 @@
                 <executions>
                     <execution>
                         <id>get-common-commands</id>
-                        <phase>package</phase>
+                        <phase>prepare-package</phase>
                         <goals>
                             <goal>unpack-dependencies</goal>
                         </goals>
