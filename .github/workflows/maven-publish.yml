@@ -29,8 +29,8 @@ jobs:
     - name: Build with Maven
       run: mvn -B package
       env:
-        MAVEN_USERNAME: Techtony96
-        PAT_TOKEN: ${{ secrets.GH_PACKAGES_MAVEN_READ_PAT }}
+        GITHUB_ACTOR: Techtony96
+        GITHUB_TOKEN: ${{ secrets.GH_PACKAGES_MAVEN_READ_PAT }}
 
     - name: Publish Package
       run: mvn -B deploy
