@@ -6,19 +6,19 @@
 
     <groupId>net.ajpappas.discord</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
         <!-- Dependency Versions -->
-        <discord.common.version>1.0-SNAPSHOT</discord.common.version>
-        <discord4j.version>3.2.3</discord4j.version>
-        <spring.version>3.0.4</spring.version>
-        <log4j.version>2.20.0</log4j.version>
+        <discord.common.version>1.1-SNAPSHOT</discord.common.version>
+        <discord4j.version>3.2.6</discord4j.version>
+        <spring.version>3.2.5</spring.version>
+        <log4j.version>2.23.1</log4j.version>
 
         <!-- Build Settings -->
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -65,7 +65,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
+            <version>1.18.32</version>
             <scope>provided</scope>
         </dependency>
 
